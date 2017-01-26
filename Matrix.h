@@ -1,5 +1,6 @@
 #if !defined MATRIX_H
 #define MATRIX_H
+//comment
 
 //the indices are not 0-based!!
 class Matrix
