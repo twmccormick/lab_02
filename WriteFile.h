@@ -15,9 +15,9 @@ class WriteFile {
 		WriteFile(const char* file_name);
 		~WriteFile();
 		
-		WriteFile* createWriteFile(const char* file_name);
-		void destroyWriteFile(WriteFile* wf);
-		void writeLine( String* line);
+		
+		
+		void writeLine(String* line);
 		void close();
 		
 };
