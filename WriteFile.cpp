@@ -2,6 +2,8 @@
 
 #include <sstream>
 
+//Written by Tyler McCormick 
+
 WriteFile::WriteFile(const char* file_name){
 	
 	this->output_file.open(file_name);
@@ -22,7 +24,7 @@ void WriteFile::close(){
 		
 		output_file.close();
 		
-		closed = true;
+		this->closed = true;
 		
 	}
 	

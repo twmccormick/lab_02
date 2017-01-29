@@ -1,6 +1,8 @@
 #if !defined WRITE_FILE_H
 #define WRITE_FILE_H
 
+//Written by Tyler McCormick 
+
 #include "Text.h"
 #include <fstream>
 using namespace std;
