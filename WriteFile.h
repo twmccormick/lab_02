@@ -1,6 +1,8 @@
 #if !defined WRITE_FILE_H
 #define WRITE_FILE_H
 
+//Written by Tyler McCormick 
+
 #include "Text.h"
 #include <fstream>
 using namespace std;
@@ -15,10 +17,10 @@ class WriteFile {
 		WriteFile(const char* file_name);
 		~WriteFile();
 		
-		WriteFile* createWriteFile(const char* file_name);
-		void destroyWriteFile(WriteFile* wf);
-		void writeLine(WriteFile* wf, String* line);
-		void close(WriteFile* wf);
+		
+		
+		void writeLine(String* line);
+		void close();
 		
 };
 
